@@ -4035,6 +4035,7 @@
     padding-bottom:56.25%;
     position:relative;
     height:0;
+	
 }
 
 .video-responsive iframe{
@@ -4043,4 +4044,7 @@
     height:100%;
     width:100%;
     position:absolute;
+    max-height:400	
+    max-width: 600
+	    
 }
