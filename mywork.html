@@ -54,19 +54,27 @@
 						<!-- One -->
 							<section id="one">
 								<div class="inner">
-									<p>Due to starting out as a pre-med major, I have vast microbiology research experience as well as experience in emergency medicine. However, upon switching to computer science, I found that these two disciplines are intertwined in such a way that my experience in the life sciences could prove invaluable. Additionally I have also taken to economics, and the combination of these 3 disciplines has given me a broader perspective on life.</p>
-									<p>As a computer science major, I am most interested in machine learning, database management, cybersecurity, and AI. So far, I have significant programming experience in Java and Python and am profecient with HTML/CSS/Javascript. I have worked loosely with Angular2 and mySQL.
-								</div>
+									<p>Due to starting out as a pre-med major, I have vast microbiology research experience as well as experience in emergency medicine. However, upon switching to computer science, I found that these two disciplines intertwined in such a way that my experience in the life sciences could prove invaluable. Additionally I have also taken to economics, and the combination of these 3 disciplines has helped me to form a unique thought process when it comes to analytical problem solving.</p>
+									<p>As a computer science major, I am most interested in machine learning, database management, cybersecurity, and algorithmic game theory. So far, I have significant programming experience in Java, Python, and SQL. I am also proficient with HTML/CSS/Javascript.
 							</section>
 						<!-- Two -->
 							<section id="two">
 										<div class = "inner">
 											<header class = "major">
-												<h2>CS15 (Object-Oriented Programming) TA: 2018 - current</h2>
+												<h2>Python Developer in the SAIL Lab at USC: 2018 (summer)</h2>
 											</header>
-										  <p>As a teaching assistant, I have multiple responsibilities ranging from holding a two hour session once a week to help students
-										  debug and fix code relating to projects, holding section once a week in order to better students' understanding of programming in
-									   	Java, and designing and grading large scale projects for the class. The professor of the class is <a href="https://en.wikipedia.org/wiki/Andries_van_Dam" target = "_blank"> Andy Van Dam </a>.</p>
+										  <p>This summer I had the pleasure of working in the SAIL (Signal Analysis and Interpretation Lab) at USC (University of Souther California) as an undergraduate
+											researcher. I worked with <a href="http://www-scf.usc.edu/~tsorense/" target="_blank">Tanner Sorensen</a> to create spatio-temporal atlases of real-time MRI images of speech production and then use said atlases in order to automatically segment the relevant
+											curves that impact speech production (upper lip, lower lip, tongue/epiglottis, mandible, chin, hard palate, velum, etc.). We created this process to be used as a
+											precursor to a more precise machine learning algorithmic process to segment the curves. To create this process, we built spatio-temporal atlases (base photo of a participant that spans multiple frames)
+										for 4 participants to start out. We then created multiple types of spatio-temporal atlases in order to gauge which would be most effective as a starting point for the segmentation process. We created 4 types of
+										atlases for each participant. Once we had the atlases, we used the Elastix and ITK medical imagine libraries in order to transform every other frame of the rtMRI photos of each participant saying the same sentence
+										against each of the atlases. We then selected 10 images that encompassed the full range of human speech production in order to test the accuracy of our segmentation. After
+										manually segmenting the 10 images, we then took the manual segmentations of the relevant atlas and transformed those points based on the specific transform generated for each image.
+										I then created a script in order to evaluate the segmentations across 10 transforms which ended up being around 300 unique photos in order to calculate the P2CP (point to closest point in pixels)
+										distance between the manual segmentations and the automatic segmentations. For our ideal transform methodology, our average P2CP error was around 0.9-1. Given that the voxel size of the images
+										was 2.84, these results were incredibly impressive for this unique segmentation process. After gathering our results, Tanner and I wrote a paper detailing our process, our results, and the future
+										direction for this segmentation process and what can be accomplished with said process. This paper should be published in the coming months. </p>
 										</div>
 								</section>
 
@@ -74,10 +82,18 @@
 						<section id="three">
 							<div class = "inner">
 								<header class = "major">
-									<h2>BSA Web Developer: 2017-2018</h2>
+									<h2>Developing Cryptocurrency Trading Tools: 2017-2018</h2>
 								</header>
-								<p>This year, I worked with a team of students to help revamp and manage the Brown Spring Weekend ticketing app and database. I mainly
-								utilized HTML/CSS, Angular2, and SQL in order to create and upkeep the database for students who had bought tickets for the event.</p>
+								<p>One thing I am incredibly passionate about is cryptocurrency and how blockchain technology will change the world we live in. I was contacted
+								by someone after detailing some of my solo cryptocurrency projects in the works on Reddit. He ended up paying me to create some trading tools using Binance
+							to give him a market advantage over other traders on Binance. I ended up coding an automated trading client and arbitrage bot in Python from scratch. The Trading
+						Client automates a reliable trading process, enabling the user to automate buys, sells, and stop losses in order to gain a market advantage over every other
+					user on Binance (aside from those who are also using automated traders). On the other side, the arbitrage bot abuses price discrepancies between two cryptocurrency exchanges
+					(Binance and Kucoin) for a range of cryptocurrencies (BTC, ETH, LTC, ICX, VET, NANO, etc.). It seeks out a price discrepancy of up to 3% or more (given that the fees are generally around 1-2%)
+				and buys on one exchange and sells on the other. The software then texts the user to rebalance the assets in order to reset the ability to arbitrage, given that this arbitrage bot utilizes
+			transferless arbitrage. I am now currently working on automating the price decisions for buys and sells in order to fully automate the trading process without any human interaction. I
+			have currently written the RSI calculator (accurate within 0.01 of Binance's calculations) and am currently working on Bollinger Bands and MACD as verifiers in order to make decisions on whether
+			to buy or sell. </p>
 							</div>
 						</section>
 
@@ -87,8 +103,8 @@
 								<header class = "major">
 									<h2>Server at Chili's Bar and Grill: 2016-2017</h2>
 								</header>
-								<p> I worked as a server over the summer and was surprised by how much I learned regarding interpersonal communication
-								during my time at the restaurant. This job was very demanding, requiring me to serve at peak hours 7 to 8 tables at a time while
+								<p> I worked as a server over the year and summer and was surprised by how much I learned regarding interpersonal communication and multitasking
+								during my time at the restaurant. This job was very demanding, requiring me to serve 9 to 10 tables at a time during rush hour while
 							ensuring that every customer I was taking care of was satisfied. Chili's has a server rating system that each customer fills out after their
 						meal, and I am most proud of the fact that I held the highest server rating in the restaurant for a 6 month period.</p>
 							</div>
@@ -99,7 +115,9 @@
 								<header class = "major">
 									<h2>Brown EMS: 2015-2017</h2>
 								</header>
-								<p> Due to starting out as a premed major, I served as a licensed EMT for Brown Emergency Medical Services (EMS). I worked 12-hour night shifts twice a week, and encountered a range of scenarios ranging from anaphylactic shock, cardiac arrest, and the occasional overly drunk college student. These experiences helped me to learn to work efficiently in a fast-paced, stress induced environment because sometimes lives were on the line.</p>
+								<p> Because I started out as a premed, I served as a licensed EMT for Brown Emergency Medical Services (EMS). I worked a 12-hour night shift
+									every week, and encountered a range of scenarios ranging from anaphylactic shock, cardiac arrest, and the occasional overly drunk college student.
+									These experiences helped me to learn to work efficiently in a fast-paced, stress induced environment due to the fact that lives were on the line.</p>
 							</div>
 						</section>
 
